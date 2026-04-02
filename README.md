@@ -45,3 +45,47 @@ The goal is to analyze system requirements, design test cases, execute UI and AP
 ---
 
 ## 📂 Project Structure
+📁 TestCases/
+📁 TestPlan/
+📁 BugReports/
+📁 API_Testing/
+📁 Automation/
+
+---
+
+## 🐞 Bug Tracking
+
+All bugs are reported and tracked using GitHub Issues:
+👉 Link: (paste your repo issues link here)
+
+---
+
+## 📊 Test Summary
+
+- Total Test Cases: XX
+- Passed: XX
+- Failed: XX
+- Bugs Found: XX
+
+---
+
+## 🚀 How to Run
+
+### UI Testing:
+- Open browser and access: https://www.themoviedb.org/
+
+### API Testing:
+- Import Postman collection from `/API_Testing/`
+- Run collection
+
+---
+
+## 📎 References
+
+- https://www.themoviedb.org/
+- https://developer.themoviedb.org/
+
+---
+
+## 📌 Notes
+This project is for academic purposes only.
