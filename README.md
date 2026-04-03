@@ -10,10 +10,10 @@ The goal is to analyze system requirements, design test cases, execute UI and AP
 ## 👥 Team Members
 | Name | Role | Responsibilities |
 |------|------|-----------------|
-| Member 1 | Tester | Authentication Testing |
-| Member 2 | Tester | Movie Browsing |
-| Member 3 | Tester | Search & Detail |
-| Member 4 | Tester | User Interaction |
+| Nguyen Duy Thuong | Tester | Authentication Testing |
+| Truong Ho Nhat Minh | Tester | Movie Browsing |
+| Nguyen The Kiet | Tester | Search & Detail |
+| Dang Hoang Giang | Tester | User Interaction |
 
 ---
 
