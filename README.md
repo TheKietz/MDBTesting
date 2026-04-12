@@ -1,39 +1,39 @@
-# 🎬 Software Testing Project - The Movie Database (MDB)
+#  Software Testing Project - The Movie Database (MDB)
 
-## 📌 Project Overview
+##  Project Overview
 This project focuses on testing the website [The Movie Database (MDB)](https://www.themoviedb.org/) as part of the Software Testing course.
 
 The goal is to analyze system requirements, design test cases, execute UI and API testing, and report defects using professional tools.
 
 ---
 
-## 👥 Team Members
+##  Team Members
 | Name | Role | Responsibilities |
 |------|------|-----------------|
-| Member 1 | Tester | Authentication Testing |
-| Member 2 | Tester | Movie Browsing |
-| Member 3 | Tester | Search & Detail |
-| Member 4 | Tester | User Interaction |
+| Nguyen Duy Thuong | Tester | Authentication  |
+| Truong Ho Nhat Minh | Tester | Movie Browsing |
+| Nguyen The Kiet | Tester | Search & Detail & Account |
+| Dang Hoang Giang | Tester | User Interaction |
 
 ---
 
-## 🧪 Testing Scope
+##  Testing Scope
 
-### ✔ In Scope:
+###  In Scope:
 - Login / Authentication
 - Movie Search
 - Movie Details
 - Favorite / Watchlist
 - API endpoints
 
-### ❌ Out of Scope:
+###  Out of Scope:
 - Payment (if any)
 - Admin features
 - Third-party integrations
 
 ---
 
-## ⚙️ Testing Approach
+## Testing Approach
 
 - **Testing Type:** Manual Testing, Basic Automation  
 - **Testing Techniques:** Black-box Testing  
@@ -44,23 +44,23 @@ The goal is to analyze system requirements, design test cases, execute UI and AP
 
 ---
 
-## 📂 Project Structure
-📁 TestCases/
-📁 TestPlan/
-📁 BugReports/
-📁 API_Testing/
-📁 Automation/
+## Project Structure
+ TestCases/
+ TestPlan/
+ BugReports/
+ API_Testing/
+ Automation/
 
 ---
 
-## 🐞 Bug Tracking
+##  Bug Tracking
 
 All bugs are reported and tracked using GitHub Issues:
-👉 Link: (paste your repo issues link here)
+Link: https://github.com/TheKietz/MDBTesting/issues
 
 ---
 
-## 📊 Test Summary
+##  Test Summary
 
 - Total Test Cases: XX
 - Passed: XX
@@ -69,7 +69,7 @@ All bugs are reported and tracked using GitHub Issues:
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### UI Testing:
 - Open browser and access: https://www.themoviedb.org/
@@ -80,7 +80,7 @@ All bugs are reported and tracked using GitHub Issues:
 
 ---
 
-## 📎 References
+##  References
 
 - https://www.themoviedb.org/
 - https://developer.themoviedb.org/
