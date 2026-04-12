@@ -56,7 +56,7 @@ The goal is to analyze system requirements, design test cases, execute UI and AP
 ##  Bug Tracking
 
 All bugs are reported and tracked using GitHub Issues:
-Link: (paste your repo issues link here)
+Link: https://github.com/TheKietz/MDBTesting/issues
 
 ---
 
