@@ -12,7 +12,7 @@ The goal is to analyze system requirements, design test cases, execute UI and AP
 |------|------|-----------------|
 | Nguyen Duy Thuong | Tester | Authentication  |
 | Truong Ho Nhat Minh | Tester | Movie Browsing |
-| Nguyen The Kiet | Tester | Search & Detail & Account |
+| Nguyen The Kiet | Tester | Search & Detail & List |
 | Dang Hoang Giang | Tester | User Interaction |
 
 ---
@@ -75,8 +75,7 @@ Link: https://github.com/TheKietz/MDBTesting/issues
 - Open browser and access: https://www.themoviedb.org/
 
 ### API Testing:
-- Import Postman collection from `/API_Testing/`
-- Run collection
+- Import Postman collection from `[/API_Testing/`](https://developer.themoviedb.org/reference/getting-started)
 
 ---
 
