@@ -1,0 +1,152 @@
+{
+  "info": {
+    "_postman_id": "a585edd9-5016-4013-b681-c6a9e7562189",
+    "name": "Kiet_MDBAPI",
+    "description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "50640424",
+    "_collection_link": "https://go.postman.co/collection/50640424-a585edd9-5016-4013-b681-c6a9e7562189?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Search_Company",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.themoviedb.org/3/search/movie?api_key=92b3a4ea0a4ebda48019070279ed015c&query=batman",
+          "protocol": "https",
+          "host": [
+            "api",
+            "themoviedb",
+            "org"
+          ],
+          "path": [
+            "3",
+            "search",
+            "movie"
+          ],
+          "query": [
+            {
+              "key": "api_key",
+              "value": "92b3a4ea0a4ebda48019070279ed015c"
+            },
+            {
+              "key": "query",
+              "value": "batman"
+            }
+          ]
+        },
+        "description": "This is a GET request and it is used to \"get\" data from an endpoint. There is no request body for a GET request, but you can use query parameters to help specify the resource you want data on (e.g., in this request, we have `id=1`).\n\nA successful GET response will have a `200 OK` status, and should include some kind of response body - for example, HTML web content or JSON data."
+      },
+      "response": []
+    },
+    {
+      "name": "Search_Keyword",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.themoviedb.org/3/search/keyword?api_key=92b3a4ea0a4ebda48019070279ed015c&query=fight",
+          "protocol": "https",
+          "host": [
+            "api",
+            "themoviedb",
+            "org"
+          ],
+          "path": [
+            "3",
+            "search",
+            "keyword"
+          ],
+          "query": [
+            {
+              "key": "api_key",
+              "value": "92b3a4ea0a4ebda48019070279ed015c"
+            },
+            {
+              "key": "query",
+              "value": "fight"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Search_keyword_id",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.themoviedb.org/3/keyword/1721?api_key=92b3a4ea0a4ebda48019070279ed015c",
+          "protocol": "https",
+          "host": [
+            "api",
+            "themoviedb",
+            "org"
+          ],
+          "path": [
+            "3",
+            "keyword",
+            "1721"
+          ],
+          "query": [
+            {
+              "key": "api_key",
+              "value": "92b3a4ea0a4ebda48019070279ed015c"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Search_Collection",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.themoviedb.org/3/search/collection?api_key=92b3a4ea0a4ebda48019070279ed015c&query=batman",
+          "protocol": "https",
+          "host": [
+            "api",
+            "themoviedb",
+            "org"
+          ],
+          "path": [
+            "3",
+            "search",
+            "collection"
+          ],
+          "query": [
+            {
+              "key": "api_key",
+              "value": "92b3a4ea0a4ebda48019070279ed015c"
+            },
+            {
+              "key": "query",
+              "value": "batman"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
